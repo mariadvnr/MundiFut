@@ -118,7 +118,7 @@ def reiniciar_entrenamiento():
 # CONFIGURACIÓN DE LA INTERFAZ GRÁFICA (GUI)
 # ==========================================
 ventana = tk.Tk()
-ventana.title("Chatbot del Mundial")
+ventana.title("MundiFut")
 ventana.geometry("1000x700") # Tamaño de la ventana
 ventana.configure(bg="#f0f0f0")
 
@@ -126,7 +126,7 @@ ventana.configure(bg="#f0f0f0")
 frame_chat = tk.Frame(ventana, bg="#f0f0f0")
 frame_chat.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 
-lbl_titulo_chat = tk.Label(frame_chat, text="Bot Interactivo (Q-Learning)", font=("Frekuent Mono", 14, "bold"), bg="#c5dfc3", fg="black", pady=5)
+lbl_titulo_chat = tk.Label(frame_chat, text="ChatBot MundiFut", font=("Frekuent Mono", 14, "bold"), bg="#c5dfc3", fg="black", pady=5)
 lbl_titulo_chat.pack(fill=tk.X)
 
 # Caja de texto del chat
