@@ -6,7 +6,7 @@ estados_posib= {
     2: ["participan", "paises"],
     3: ["costo", "precio", "entrada"],
     4: ["famosos", "jugadores"],
-    5: ["ganador", "ultimo","2024"],
+    5: ["ganador", "ultimo","2022"],
     6: ["candidatos", "posibles"],
     7: ["cancion", "tema"],
     8: ["sorpresas", "revelacion"],
