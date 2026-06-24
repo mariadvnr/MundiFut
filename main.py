@@ -14,7 +14,7 @@ btn_like = None
 btn_dislike = None
 
 def clasificar_mensaje(mensaje_usuario):
-    """Busca palabras clave para determinar el Estado."""
+   
     palabras_mensaje = mensaje_usuario.lower().split() 
     
     for estado, palabras_clave in estados_posib.items():
@@ -211,7 +211,7 @@ def reiniciar_entrenamiento():
 
 
 def bind_hover(widget, hover_bg, normal_bg):
-    """Vincula eventos de hover para cambiar el color de fondo."""
+   
     def on_enter(event):
         if str(widget['state']) != 'disabled':
             widget.config(bg=hover_bg)
